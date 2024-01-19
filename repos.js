@@ -113,7 +113,7 @@ if(userDetails){
            
         }
             else {
-              reposContainerEl.textContent = `${userDetails.login} has no public repositories yet.`;
+              reposContainerEl.textContent = `${userDetails.login} has no public repositories to display.`;
             } 
         } catch (e) {
             console.error(e);
