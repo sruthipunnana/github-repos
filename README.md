@@ -9,7 +9,7 @@ Features implemented:
   4. Implemented server side search feature using github api where user can search required repos not constraining to current page.
   5. Handled edge cases of: validation for username in login page; unavailable username; no public repos of a user; max repos of 100 per page; no results found in search functionality.
 
-how to run in Local: 
+How to run in Local: 
 1. Clone the repository:
 
    ```bash
