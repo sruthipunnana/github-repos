@@ -15,6 +15,11 @@ How to run in Local:
    ```bash
    git clone https://github.com/sruthipunnana/github-repos.git
 2. Navigate to the project directory:
+   
+   ```bash
      cd github-repos
-3.Open login.html in your preferred browser or use bash command: open login.html
+3. Open login.html in your preferred browser or use bash command:
+
+   ```bash
+   open login.html
 
