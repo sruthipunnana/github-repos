@@ -17,7 +17,7 @@ How to run in Local:
 2. Navigate to the project directory:
    
    ```bash
-     cd github-repos
+   cd github-repos
 3. Open login.html in your preferred browser or use bash command:
 
    ```bash
