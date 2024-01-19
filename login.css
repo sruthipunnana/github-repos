@@ -1,0 +1,63 @@
+*{
+    font-family: Arial, Helvetica, sans-serif
+}
+
+
+.login-container{
+  min-height:100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(to bottom, rgb(247, 245, 243), rgb(174, 174, 243));
+  
+}
+
+.user-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient(to bottom, rgb(240, 237, 234), rgb(174, 174, 243));
+    padding:1em;
+    width:40vw;
+    border-radius: 1em;
+  
+}
+
+#error{
+    color:red;
+    font-size:15px;
+}
+
+.username-heading{
+    font-size: 1.24em;
+}
+
+#username-input {
+    width: 300px; 
+    padding: 7px; 
+    font-size: 1em; 
+    border: 1px solid #ccc;
+    border-radius: 5px; 
+    margin-bottom: 10px; 
+    box-sizing: border-box; 
+  }
+  
+  .loaderBox {
+    position: relative;
+    display: flex;
+    background: var(--even);
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    z-index: 1;
+}   
+
+.spinner1 {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    animation: round 1s linear infinite;
+    border-top: 5px solid rgb(30, 210, 222);
+    background: transparent;
+}
